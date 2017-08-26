@@ -8,18 +8,19 @@ body{
 
 h1, h2, h3, h5, footer {
     text-align: center;
+    color: rgb(0,32,96);
 }
-
 h5{
     font-weight: normal;
 }
-.footer {
-    background-color: black;
+nav {
+    background-color: rgba(0,32,96,0.9);
     color: blanchedalmond;
     font-weight: bold;
     padding: 10px;
     width: 100%;
     margin-left:-10px;
+    margin-top: -10px;
     /* width and margin-left are too ensure black footer covers right-edge to left-edge without parchment bacgkround */
 }
 
@@ -30,19 +31,24 @@ nav a{
 /*    ^ removes underlines from links*/
 }
 
+.column{
+    margin: 0.5%;
+}
+
 #colLeft{
     float: left;
-    width: 33%;
+    width: 32%;
+    margin-left: 1%;
 }
 
 #colCenter{
     float: left;
-    width: 33%;
+    width: 32%;
 }
 
 #colRight{
-    float: right;
-    width: 33%;
+    float: left;
+    width: 32%;
 }
 
 .clearfix{
@@ -51,3 +57,18 @@ nav a{
     
 }
 
+.column img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0,32,96,0.5);
+}
+
+footer p{
+    font-size: .5em;
+    margin-top: 8px;
+}
+
+#divider{
+    height: 3px;
+    background-color: rgba(0,32,96,0.9);
+}
