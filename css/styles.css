@@ -4,15 +4,17 @@ body{
 /*    opacity affects all elements on the page, not just the background image*/
     
      font-family: Verdana, Arial, sans-serif;
+     color: rgb(0,32,96);
 }
 
-h1, h2, h3, h5, footer {
+h1, h3, h5, footer {
     text-align: center;
-    color: rgb(0,32,96);
 }
-h5{
+
+h5 {
     font-weight: normal;
 }
+
 nav {
     background-color: rgba(0,32,96,0.9);
     color: blanchedalmond;
@@ -21,18 +23,26 @@ nav {
     width: 100%;
     margin-left:-10px;
     margin-top: -10px;
-    /* width and margin-left are too ensure black footer covers right-edge to left-edge without parchment bacgkround */
+    /* width and negative margins keep nav edges from showing parchment bacgkround */
 }
 
 nav a{
     padding: 30px;
     color: blanchedalmond;
     text-decoration: none;  
-/*    ^ removes underlines from links*/
 }
 
 .column{
     margin: 0.5%;
+}
+
+.column p, .column li{
+    font-size: .85em;
+    line-height: 1.5em;
+}
+
+.column li{
+    padding: 4px;
 }
 
 #colLeft{
@@ -54,7 +64,6 @@ nav a{
 .clearfix{
     display:block;
     clear:both;
-    
 }
 
 .column img{
