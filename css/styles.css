@@ -1,12 +1,18 @@
 body{
     background-image: url("../images/paper_tile.jpg");
+/*    opacity: 0.7;*/
+/*    opacity affects all elements on the page, not just the background image*/
+    
+     font-family: Verdana, Arial, sans-serif;
 }
 
-h1, h2, footer {
+h1, h2, h3, h5, footer {
     text-align: center;
-    font-family: Verdana, Arial, sans-serif;
 }
 
+h5{
+    font-weight: normal;
+}
 .footer {
     background-color: black;
     color: blanchedalmond;
@@ -14,10 +20,34 @@ h1, h2, footer {
     padding: 10px;
     width: 100%;
     margin-left:-10px;
+    /* width and margin-left are too ensure black footer covers right-edge to left-edge without parchment bacgkround */
 }
 
 nav a{
     padding: 30px;
     color: blanchedalmond;
-    text-decoration: none;
+    text-decoration: none;  
+/*    ^ removes underlines from links*/
 }
+
+#colLeft{
+    float: left;
+    width: 33%;
+}
+
+#colCenter{
+    float: left;
+    width: 33%;
+}
+
+#colRight{
+    float: right;
+    width: 33%;
+}
+
+.clearfix{
+    display:block;
+    clear:both;
+    
+}
+
