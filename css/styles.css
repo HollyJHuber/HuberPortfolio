@@ -1,14 +1,19 @@
 body{
     background-image: url("../images/paper_tile.jpg");
     background-color: rgba(255,230,204, 0.8);
-     font-family: Verdana, Arial, sans-serif;
-     color: rgb(0,32,96);
+    font-family: Verdana, Arial, sans-serif;
+    color: rgb(0,32,96);
 }
 
 h1, h3, h5, footer {
     text-align: center;
 }
-
+h1{
+    font-family: 'Lemon', cursive;
+    text-shadow: 2px 2px 2px rgba(0,32,96,0.5);
+    font-size: 2.5em;
+    font-weight: normal;
+}
 h5 {
     font-weight: normal;
 }
@@ -60,6 +65,7 @@ nav a{
 .footer p{
     font-size: .5em;
     margin-top: 18px;
+    font-family: 'Lemon', cursive;
 }
 
 .hrFooter{
@@ -156,6 +162,4 @@ input[type=submit]{
     font-size: 1em;
     margin: 48px 0;
 }
-
-#contactTypes a{
     
