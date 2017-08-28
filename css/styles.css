@@ -30,6 +30,9 @@ nav a {
     color: rgb(255,230,204);
     text-decoration: none;  
 }
+nav a:hover{
+    color: rgba(45,134,45,1);
+}
 
 .clearfix {
     display:block;
@@ -171,3 +174,9 @@ input[type=submit] {
     margin: 48px 0;
 }
     
+.fa {
+    color: rgba(0,32,96,0.9);
+}
+.fa:hover{
+    color: rgba(45,134,45,0.9);
+}
