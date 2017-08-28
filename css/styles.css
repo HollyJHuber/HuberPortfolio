@@ -1,27 +1,23 @@
 body {
     background-image: url("../images/paper_tile.jpg");
     background-color: rgba(255,230,204, 0.8);
-    font-family: Verdana, Arial, sans-serif;
+    font-family: Taviraj, Arial, sans-serif;
     color: rgb(0,32,96);
 }
 
-h1, h3, h5, footer {
+h1, h3, h5, nav, footer, .quote, #contactForm .label {
     text-align: center;
+    font-family: 'Work Sans', cursive;
+    font-weight: bold;
 }
 h1 {
-    font-family: 'Lemon', cursive;
-    text-shadow: 2px 2px 2px rgba(0,32,96,0.5);
+    text-shadow: 1.5px 1.5px 1.5px rgba(0,32,96,0.5);
     font-size: 2.5em;
-    font-weight: normal;
-}
-h5 {
-    font-weight: normal;
 }
 
 nav {
     background-color: rgba(0,32,96,0.9);
     box-shadow: 3px 3px 3px rgba(0,32,96,0.5);
-    font-weight: bold;
     padding: 10px;
     width: 100%;
     margin-left:-10px;
@@ -43,7 +39,6 @@ nav a {
 .footer p {
     font-size: .5em;
     margin-top: 18px;
-    font-family: 'Lemon', cursive;
 }
 
 .hrFooter {
@@ -74,7 +69,7 @@ img{
 }
 
 .column p, .column li, .aboutText p {
-    font-size: .85em;
+    font-size: .9em;
     line-height: 1.5em;
     margin: 12px 12px;
 }
@@ -92,16 +87,16 @@ img{
 }
 .quote {
     float: left;
-    font-style: italic;
+    text-align: left;
     font-size: 1em;
+    font-style: normal;
     line-height: 1.75em;
     margin: 0 36px;
 }
 .quote p {
     text-align: right;
     margin: -12px 36px 8px 0px;
-    font-style: normal;
-    font-size: .65em;
+    font-size: .75em;
 }
 
 .hrBlockquote {
@@ -118,7 +113,7 @@ img{
 }
 
 .aboutList {
-    font-size: .85em;
+    font-size: .9em;
     line-height: 1.85em;
     margin: 24px 24px 24px 36px;
     float: left;
@@ -138,7 +133,7 @@ img{
 
 #contactForm {
     text-align: center;
-    font-size: .85em;
+    font-size: .9em;
 }
 
 #contactForm h2 {
@@ -147,7 +142,7 @@ img{
 }
 
 #contactForm .label {
-    font-weight: bold;
+    font-size: 1.25em;
     margin: 24px 0 6px 0;
 }
 
@@ -159,10 +154,12 @@ input, textarea {
 }
 
 input[type=submit] {
+    text-transform: uppercase;
     background-color: rgba(0,32,96,0.9);
     color: rgb(255,230,204);
     font-weight: bold;
     font-size: 1.25em;
+    letter-spacing: .5em;
     padding: 18px;
     border-radius: 20px;
     border: none;
