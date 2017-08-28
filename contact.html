@@ -14,7 +14,7 @@
                 <a href="about.html">ABOUT</a>
                 <a href="contact.html">CONTACT</a>
             </nav>
-            <h1>Answer Me These Questions Three</h1>
+            <h1>“Answer Me These Questions Three”</h1>
         </header>  
         
 <!-- start contact content -->
@@ -24,11 +24,13 @@
             <p class="label">What is your Name?</p> 
             <p><input type="text" size="40" name="Name" required="required" /></p>
             <p class="label">What is your Quest?</p> 
-            <p><input type="text" size="40" name="Quest" required="required"/></p>
+            <p><input type="text" size="40" name="Quest" required="required" placeholder="Holy Grail"/></p>
             <p class="label">What is your Favorite Color?</p> 
-            <p><textarea name="Color" rows="10" cols="40" > ... </textarea></p>
-            <p><input type="submit" name="Submit" /></p>
+            <p><input type="text" size="40" name="Color"/></p>
+            <p><input type="submit" name="Submit" onclick="MontyPython()"/></p>
         </form>
+        
+        <h4 id="formResults"></h4>
         
         <p id="contactTypes"> <a href="mailto:hollyjhuber@gmail.com" title="Send Email">Email</a> | <a href="tel:2318556271" title="Make Call">Call</a> | <a href="sms://2318556271" title="Send Text">Text</a> | <a href="https://www.linkedin.com/in/hollyjhuber/" title="View LinkedIn Profile">LinkedIn</a> | <a href="https://www.facebook.com/holly.j.huber" title="Visit FaceBook">FaceBook</a> | <a href="https://twitter.com/HollyJHuber" title="Visit Twitter">Twitter</a></p>
 
@@ -42,5 +44,6 @@
                 <p>Portfolio for Grand Circus Facebook Bootcamp &copy; Holly J. Huber 2017</p>
             </div>
         </footer>
+        <script src="/js/code.js"></script>
     </body>
 </html>
