@@ -15,25 +15,38 @@
                 <a href="about.html">ABOUT</a>
                 <a href="contact.html">CONTACT</a>
             </nav>
-            <h1>“Answer Me These Questions Three”</h1>
+            <h2>“Answer Me These Questions Three”</h2>
         </header>  
         
 <!-- start contact content -->
         
          
-        <form id="contactForm" action="" method="">
+        <form id="contactForm">
             <p class="label">What is your Name?</p> 
-            <p><input type="text" size="40" name="Name" required="required" /></p>
+            <p><input type="text" size="40" name="Name" /></p>
             <p class="label">What is your Quest?</p> 
-            <p><input type="text" size="40" name="Quest" required="required" placeholder="Holy Grail"/></p>
+            <p><input type="text" size="40" name="Quest" placeholder="seek the Holy Grail"/></p>
             <p class="label">What is your Favorite Color?</p> 
-            <p><input type="text" size="40" name="Color"/></p>
-            <p><input type="submit" name="Submit" onclick="MontyPython()"/></p>
+            <p><select name="Color">
+                <option value="darkred">Red</option>
+                <option value="darkorange">Orange</option>
+                <option value="goldenrod">Yellow</option>
+                <option value="green">Green</option>
+                <option alue="blue" selected>Blue</option>
+                <option value="blueviolet">Purple</option>
+            </select>
+            </p>
         </form>
+
+        <h3><button onclick="MontyPython()"> SUBMIT </button></h3>
+
+        <h3 id="formResults"></h3>
+        <div id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/pWS8Mg-JWSg?ecver=1" frameborder="0" allowfullscreen>Your browser does not support the HTML5 iframe tag</iframe>
+        </div>
+            
         
-        <h4 id="formResults"></h4>
-        
-        <p id="contactTypes"><a href="mailto:hollyjhuber@gmail.com" title="Send Email"><i class="fa fa-envelope-square fa-3x"></i></a> <a href="tel:2318556271" title="Make Call"><i class="fa fa-phone-square fa-3x"></i></a> <a href="sms://2318556271" title="Send Text"><i class="fa fa-pencil-square fa-3x"></i></a> <a href="https://www.linkedin.com/in/hollyjhuber/" title="View LinkedIn Profile"><i class="fa fa-linkedin-square fa-3x"></i></a> <a href="https://www.facebook.com/holly.j.huber" title="Visit FaceBook"><i class="fa fa-facebook-square fa-3x"></i></a> <a href="https://twitter.com/HollyJHuber" title="Visit Twitter"><i class="fa fa-twitter-square fa-3x"></i></a> <a href="https://github.com/HollyJHuber?tab=repositories" title="View GitHub"><i class="fa fa-github-square fa-3x"></i></a></p>
+        <h3><a href="mailto:hollyjhuber@gmail.com" title="Send Email"><i class="fa fa-envelope-square fa-3x"></i></a> <a href="tel:2318556271" title="Make Call"><i class="fa fa-phone-square fa-3x"></i></a> <a href="sms://2318556271" title="Send Text"><i class="fa fa-pencil-square fa-3x"></i></a> <a href="https://www.linkedin.com/in/hollyjhuber/" title="View LinkedIn Profile"><i class="fa fa-linkedin-square fa-3x"></i></a> <a href="https://www.facebook.com/holly.j.huber" title="Visit FaceBook"><i class="fa fa-facebook-square fa-3x"></i></a> <a href="https://twitter.com/HollyJHuber" title="Visit Twitter"><i class="fa fa-twitter-square fa-3x"></i></a> <a href="https://github.com/HollyJHuber?tab=repositories" title="View GitHub"><i class="fa fa-github-square fa-3x"></i></a></h3>
 
         
         
@@ -45,6 +58,6 @@
                 <p>Portfolio for Grand Circus Facebook Bootcamp &copy; Holly J. Huber 2017</p>
             </div>
         </footer>
-        <script src="/js/code.js"></script>
+        <script src="js/code.js"></script>
     </body>
 </html>
